@@ -1,0 +1,5 @@
+This repository depends on, and does not copy, the Lean library NavierStokesAndEuler
+(OpenAI, Apache License 2.0), which formalizes "Finite time blowup for Navier–Stokes" and
+"Finite time blowup for the Euler equation" by OpenAI (2026). The reference definitions it uses
+were adapted by OpenAI from the Formal Conjectures project of Google DeepMind
+(FormalConjectures/Millenium/NavierStokes.lean, Apache License 2.0).
