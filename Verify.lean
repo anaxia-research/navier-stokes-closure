@@ -1,0 +1,10 @@
+import NavierStokesClosure
+
+#print axioms NavierStokesClosure.clayC
+#print axioms NavierStokesClosure.clayD
+#print axioms NavierStokesClosure.clayC_and_clayD
+#print axioms NavierStokesClosure.millennium
+#print axioms NavierStokesClosure.not_forcedGlobalRegularityR3
+#print axioms NavierStokesClosure.not_forcedGlobalRegularityTorus
+#print axioms NavierStokesClosure.euler_breakdown
+#print axioms Euler.exists_compact_smooth_euler_singularity

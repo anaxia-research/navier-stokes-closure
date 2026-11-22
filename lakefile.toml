@@ -1,0 +1,16 @@
+name = "NavierStokesClosure"
+version = "0.1.0"
+defaultTargets = ["NavierStokesClosure", "Verify"]
+
+[[require]]
+name = "NavierStokesAndEuler"
+git = "https://github.com/anaxia-research/NavierStokesAndEuler.git"
+rev = "f9e8bc5b38b6e212696e8a30e3e91517af887bbd"
+
+[[lean_lib]]
+name = "NavierStokesClosure"
+globs = ["NavierStokesClosure", "NavierStokesClosure.+"]
+leanOptions = { autoImplicit = false }
+
+[[lean_lib]]
+name = "Verify"
